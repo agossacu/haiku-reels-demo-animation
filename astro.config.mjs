@@ -6,6 +6,6 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
 	site: "https://joackob.github.io",
-	base: "/haiku-reels-astro",
+	base: "/haiku-reels-demo",
 	integrations: [mdx(), sitemap(), tailwind()],
 });
